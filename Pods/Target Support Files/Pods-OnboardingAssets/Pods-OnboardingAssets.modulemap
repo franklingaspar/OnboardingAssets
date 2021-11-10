@@ -1,0 +1,6 @@
+framework module Pods_OnboardingAssets {
+  umbrella header "Pods-OnboardingAssets-umbrella.h"
+
+  export *
+  module * { export * }
+}
