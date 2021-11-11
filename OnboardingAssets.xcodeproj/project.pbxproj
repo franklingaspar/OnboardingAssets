@@ -11,6 +11,7 @@
 		92EB3A89273C28ED00DAD73A /* OnboardingAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EB3A7F273C28ED00DAD73A /* OnboardingAssets.framework */; };
 		92EB3A8E273C28ED00DAD73A /* OnboardingAssetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EB3A8D273C28ED00DAD73A /* OnboardingAssetsTests.swift */; };
 		92EB3A90273C28ED00DAD73A /* OnboardingAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 92EB3A82273C28ED00DAD73A /* OnboardingAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92EB3AE6273D52C600DAD73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EB3AE5273D52C600DAD73A /* Assets.xcassets */; };
 		C6ADA24FB92074C9292C212E /* Pods_OnboardingAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4618EF6883CDA2BBA7E5CFC /* Pods_OnboardingAssets.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		92EB3A88273C28ED00DAD73A /* OnboardingAssetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnboardingAssetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EB3A8D273C28ED00DAD73A /* OnboardingAssetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingAssetsTests.swift; sourceTree = "<group>"; };
 		92EB3A8F273C28ED00DAD73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EB3AE5273D52C600DAD73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD99932DB0D8027682E6E1F0 /* Pods-OnboardingAssets-OnboardingAssetsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingAssets-OnboardingAssetsTests.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingAssets-OnboardingAssetsTests/Pods-OnboardingAssets-OnboardingAssetsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C42A6E742772314915A4C0C6 /* Pods-OnboardingAssets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnboardingAssets.debug.xcconfig"; path = "Target Support Files/Pods-OnboardingAssets/Pods-OnboardingAssets.debug.xcconfig"; sourceTree = "<group>"; };
 		E4618EF6883CDA2BBA7E5CFC /* Pods_OnboardingAssets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnboardingAssets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +87,7 @@
 			children = (
 				92EB3A82273C28ED00DAD73A /* OnboardingAssets.h */,
 				92EB3A83273C28ED00DAD73A /* Info.plist */,
+				92EB3AE5273D52C600DAD73A /* Assets.xcassets */,
 			);
 			path = OnboardingAssets;
 			sourceTree = "<group>";
@@ -106,7 +109,6 @@
 				BD99932DB0D8027682E6E1F0 /* Pods-OnboardingAssets-OnboardingAssetsTests.debug.xcconfig */,
 				8079D62A7FF9BA61E8DBEF25 /* Pods-OnboardingAssets-OnboardingAssetsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EB3AE6273D52C600DAD73A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
