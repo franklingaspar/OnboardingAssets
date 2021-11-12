@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "OnboardingAssets"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A short description of OnboardingAssets."
   spec.homepage     = "http://EXAMPLE/OnboardingAssets"
   spec.license      = "MIT"
@@ -13,5 +13,6 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/franklingaspar/OnboardingAssets.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "OnboardingAssets/**/*.{h,m,swift,xib,storyboard}"
-
+  spec.resource_bundles = { "OnboardingAssets" => ["OnboardingAssets/Assets.xcassets/*"] }
+  spec.resources        = ["OnboardingAssets/Assets.xcassets"]
 end
